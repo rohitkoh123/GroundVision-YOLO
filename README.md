@@ -8,26 +8,34 @@ The work focuses on evaluating the effect of different data augmentation strateg
 
 Future development aims to expand the dataset with additional species and enable real-time inference on Android devices through ONNX or TensorFlow Lite conversion.
 
+
+## 📂 Repository Structure
+```
 GroundVision-YOLO/
 │
 ├── datasetCustom.yaml # YOLO dataset configuration
 ├── split.py # Dataset splitting script (train/val/test)
 ├── sanityCheck.py # Sanity check for image-label consistency
 ├── plant_names_extractor.py # Extracts unique plant species from filenames
-├── main.ipynb #Google Colab file
+├── main.ipynb # Google Colab notebook for model training
 │
-├── /split/ # Final dataset (train, val, test)
-│ ├── /train/images
-│ ├── /train/labels
-│ ├── /val/images
-│ ├── /val/labels
-│ ├── /test/images
-│ └── /test/labels
+├── split/ # Final dataset (train, val, test)
+│ ├── train/
+│ │ ├── images/
+│ │ └── labels/
+│ ├── val/
+│ │ ├── images/
+│ │ └── labels/
+│ └── test/
+│ ├── images/
+│ └── labels/
 │
-├── /runs/ # YOLO experiment output folder
+├── runs/ # YOLO experiment output folder
 │ ├── exp_baseline/
 │ ├── exp_geo_mild/
 │ ├── exp_geo_stronger/
 │ └── exp_color_heavy/
 │
 └── README.md
+```
+

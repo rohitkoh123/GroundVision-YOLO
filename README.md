@@ -9,6 +9,11 @@ The work focuses on evaluating the effect of different data augmentation strateg
 Future development aims to expand the dataset with additional species and enable real-time inference on Android devices through ONNX or TensorFlow Lite conversion.
 
 
+The complete labeled dataset (16 plant species, 145 images) used in this project is available on Google Drive:
+
+🔗 **[Download Dataset from Google Drive](https://drive.google.com/drive/folders/11_5CYDYFwPYIe1Hyx87y9sVBPnx_FnXU?usp=sharing)**
+
+
 ## 📂 Repository Structure
 ```
 GroundVision-YOLO/

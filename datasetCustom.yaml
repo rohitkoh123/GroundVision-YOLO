@@ -1,0 +1,21 @@
+path: /content/drive/MyDrive/split
+train: train/images
+val: val/images
+
+names:
+  - BirdCatcherTree
+  - CapeDaisy
+  - CastIronPlant
+  - FairyPritmose
+  - FairyStoneCorp
+  - FarmosaLilly
+  - FernLeavedBegonia
+  - JapeneseCamellia
+  - NatalLilly
+  - PotMarigold
+  - Sexton'sBride
+  - SilverFern
+  - SouthernInidanAzalea
+  - SpringStarflower
+  - TreeRhododendron
+  - VeronicaDiosmifolia

@@ -1,7 +1,7 @@
 import os
 import re
 
-# ✅ Folder containing all your images
+
 folder_path = "./Dataset"
 
 # ✅ Output text file (saved in the same folder as this script)
